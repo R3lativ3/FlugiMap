@@ -4,26 +4,35 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: red;
+    background-color: white;
 }
 .marker {
     background-image: url('./icons8-scooter-64.png');
     background-size: cover;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 10%;
     cursor: pointer;
+    color:rgb(14, 11, 9);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+.titulo{
+    text-shadow: 2px 2px 5px rgb(110, 133, 156);
+    padding-top: 20px;
+}
+
 .info{
-    color:white;
+    color:rgb(255, 255, 255);
     padding: 10px;
     position:fixed;
     top:20px;
     left:20px;
     z-index:99;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(36, 103, 247, 0.699);
     border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo{

@@ -31,7 +31,7 @@ export const MapaPage = () => {
         movimientoMarcador$.subscribe(marcador => {
             socket.emit('marcador-actualizado', marcador)
         })
-    }, [movimientoMarcador$])
+    }, [movimientoMarcador$, socket])
 
     useEffect(() => {
         socket.on('marcador-actualizado', (marcador) => {
